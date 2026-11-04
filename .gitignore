@@ -1,4 +1,4 @@
-.httr-oauth
-
-/.quarto/
-**/*.quarto_ipynb
+.Rproj.user/
+.Rhistory
+.RData
+_site/

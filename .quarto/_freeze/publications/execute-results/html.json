@@ -1,0 +1,15 @@
+{
+  "hash": "8b4c332ef9154a6ea40ea78c7ef5e9ab",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Publications\"\nauthor: \"Dr. Lyndon B. Duff\"\nexecute:\n  echo: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n# Publications\n\nMy research focuses on behavioural ecology, social evolution, social organization, dispersal, and social networks in bees.\n\n## Research Profiles\n\n[ORCID](https://orcid.org/0000-0001-9939-5417){.btn .btn-success}\n\n[Google Scholar](https://scholar.google.com/citations?hl=en&user=rIDnf2UAAAAJ){.btn .btn-primary}\n\n[ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn .btn-info}\n\n# Current Manuscripts\n\n## Under Review\n\n- **Duff, L.B., Mesich, J.M., and Richards, M.H.**\n  *Individual Strategies Shape Social Structure Through Reproductive Behaviour, Nest Use, and Queueing.*\n  _Submitted to Animal Behaviour._\n\n- **Corbin, L.A.-J., Duff, L.B., and Richards, M.H.**\n  *Variation in male mating behaviour in the eastern carpenter bee.*\n  _Submitted to Journal of Zoology._\n\n## In Preparation\n\n- **Author list TBD.**\n  *Effects of social foundress composition and annual variation on behavioural transitions between tolerance and aggression, and the persistence of behavioural states in eastern carpenter bees during circle-tube experiments.*\n\n- **Duff, L.B. and Richards, M.H.**\n  *Sex-specific patterns of dispersal and semi-fluid sleeping associations in the eastern carpenter bee.*\n\n- **Duff, L.B. and Richards, M.H.**\n  *Annual weather variation altered maternal foraging effort and investment in offspring body size of the eastern carpenter bee, Xylocopa virginica (Hymenoptera: Apidae).*\n  \n## Publications\n\n::: {.cell}\n\n:::\n\n\n\n## 2023\n\nDuff, Lyndon B.; Proulx, Alex N.M.; Corbin, Lyllian A.-J.; Richards, Miriam H.. *Evidence for multiple mating by female eastern carpenter bees,\n                    <i>Xylocopa virginica</i>\n                    (Hymenoptera: Apidae)*. _The Canadian Entomologist_, 155. https://doi.org/10.4039/tce.2022.51\n\n\n## 2016-07\n\nDuff, Lyndon B.; Urichuk, Theresa M.; Hodgins, Lisa N.; Young, Jocelyn R.; Untereiner, Wendy A.. *Diversity of fungi from the mound nests of <i>Formica ulkei</i> and adjacent non-nest soils*. _Canadian Journal of Microbiology_, 62. https://doi.org/10.1139/cjm-2015-0628\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
