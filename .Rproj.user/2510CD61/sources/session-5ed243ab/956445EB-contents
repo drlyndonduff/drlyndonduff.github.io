@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Dr. Lyndon B. Duff"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: news_and_outreach.qmd
+        text: News & Outreach
+      - href: contact.qmd
+        text: Contact
+
+  page-footer:
+    left: "© Dr. Lyndon B. Duff"
+    right:
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Lyndon-Duff
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en
+      - text: ORCID
+        href: https://orcid.org/0000-0001-9939-5417
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto

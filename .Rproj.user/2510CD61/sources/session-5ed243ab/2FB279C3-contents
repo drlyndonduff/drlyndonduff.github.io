@@ -1,0 +1,81 @@
+---
+title: "Publications"
+author: "Dr. Lyndon B. Duff"
+execute:
+  echo: false
+---
+
+```{r}
+pubs <- readRDS("publications.rds")
+```
+
+# Publications
+
+My research focuses on behavioural ecology, social evolution, social organization, dispersal, and social networks in bees.
+
+## Research Profiles
+
+[ORCID](https://orcid.org/0000-0001-9939-5417){.btn .btn-success}
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=rIDnf2UAAAAJ){.btn .btn-primary}
+
+[ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn .btn-info}
+
+# Current Manuscripts
+
+## Under Review
+
+- **Duff, L.B., Mesich, J.M., and Richards, M.H.**
+  *Individual Strategies Shape Social Structure Through Reproductive Behaviour, Nest Use, and Queueing.*
+  _Submitted to Animal Behaviour._
+
+- **Corbin, L.A.-J., Duff, L.B., and Richards, M.H.**
+  *Variation in male mating behaviour in the eastern carpenter bee.*
+  _Submitted to Journal of Zoology._
+
+## In Preparation
+
+- **Author list TBD.**
+  *Effects of social foundress composition and annual variation on behavioural transitions between tolerance and aggression, and the persistence of behavioural states in eastern carpenter bees during circle-tube experiments.*
+
+- **Duff, L.B. and Richards, M.H.**
+  *Sex-specific patterns of dispersal and semi-fluid sleeping associations in the eastern carpenter bee.*
+
+- **Duff, L.B. and Richards, M.H.**
+  *Annual weather variation altered maternal foraging effort and investment in offspring body size of the eastern carpenter bee, Xylocopa virginica (Hymenoptera: Apidae).*
+  
+## Publications
+```{r}
+pubs <- readRDS("publications_full.rds")
+```
+
+```{r, results='asis'}
+
+for(yr in sort(unique(pubs$year), decreasing = TRUE)) {
+
+  cat(paste0("\n## ", yr, "\n\n"))
+
+  papers <- pubs[pubs$year == yr, ]
+
+  for(i in seq_len(nrow(papers))) {
+
+    cat(
+      paste0(
+        papers$authors[i],
+        ". ",
+        "*", papers$title[i], "*",
+        ". _", papers$journal[i], "_",
+        ifelse(
+          is.na(papers$volume[i]),
+          "",
+          paste0(", ", papers$volume[i])
+        ),
+        ". https://doi.org/",
+        papers$doi[i],
+        "\n\n"
+      )
+    )
+  }
+}
+```
+
