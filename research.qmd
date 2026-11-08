@@ -3,8 +3,6 @@ title: "Research"
 author: "Dr. Lyndon B. Duff"
 ---
 
-# Research
-
 My research examines how ecological and evolutionary processes shape social organization in facultatively social carpenter bees. I am particularly interested in how individual behavioural decisions scale to population-level social structure, and how patterns of cooperation, dispersal, and reproduction contribute to the formation and maintenance of social groups.
 
 Using long-term field studies, behavioural observations, social-network approaches, and statistical modelling, my work focuses on facultatively social carpenter bees as a model system for understanding the origins and maintenance of sociality.
@@ -12,9 +10,23 @@ Using long-term field studies, behavioural observations, social-network approach
 
 ## Social Organization in Carpenter Bees
 
-Social groups are not static. Individuals join, leave, and reconfigure associations over time, producing social structures that can vary substantially among years and populations.
+Understanding how reproductive behaviour, nest use, and social interactions contribute to the formation and maintenance of social groups.
 
-My research examines how social groups form and persist, with particular emphasis on reproductive behaviour, nest use, and interactions among individuals. By combining long-term demographic data with social-network analyses, I investigate how individual behaviour contributes to broader patterns of social organization.
+::: {.columns}
+
+::: {.column}
+![](images/social/xv_1.jpg)
+:::
+
+::: {.column}
+![](images/social/xv_2.jpg)
+:::
+
+::: {.column}
+![](images/social/xv_3.jpg)
+:::
+
+:::
 
 ## Sleeping Associations and Social Networks
 

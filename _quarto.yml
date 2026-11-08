@@ -8,14 +8,22 @@ website:
     left:
       - href: index.qmd
         text: Home
+
       - href: research.qmd
         text: Research
+
+      - href: gallery.qmd
+        text: Gallery
+
       - href: publications.qmd
         text: Publications
+
       - href: cv.qmd
         text: CV
+
       - href: news_and_outreach.qmd
         text: News & Outreach
+
       - href: contact.qmd
         text: Contact
 
@@ -24,14 +32,16 @@ website:
     right:
       - text: ResearchGate
         href: https://www.researchgate.net/profile/Lyndon-Duff
+
       - text: Google Scholar
         href: https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en
+
       - text: ORCID
         href: https://orcid.org/0000-0001-9939-5417
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
 

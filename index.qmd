@@ -1,53 +1,77 @@
 # Dr. Lyndon B. Duff
 
-![](images/profile.png){fig-align="center" width="35%"}
+![](images/social/xv_2.jpg){fig-align="center"}
 
-### Behavioural Ecology • Social Ecology • Foraging Behaviour
+### Behavioural Ecologist Studying Social Ecology and Evolution in Carpenter Bees
 
-I am a behavioural ecologist interested in the ecological and evolutionary processes that shape social organization, cooperation, dispersal, and reproductive behaviour in bees.
+I am a behavioural ecologist interested in how ecological and evolutionary processes shape social organization, cooperation, dispersal, and reproductive behaviour.
 
-My research combines long-term field studies, social-network approaches, and statistical modelling to understand how individual behaviour contributes to population-level social structure.
+Using long-term field studies of large carpenter bees (*Xylocopa virginica*), I investigate how individual behavioural decisions scale up to population-level patterns of social structure and social evolution.
 
-## Research Interests
+## Research Highlights
 
-- Social evolution
+- Long-term study of facultatively social carpenter bees
+- Social network analysis of bee associations
+- Nest fidelity and dispersal dynamics
+- Environmental drivers of reproductive behaviour
+- Behavioural mechanisms underlying social evolution
 
-- Cooperative behaviour
+## Research in Images
 
-- Nest fidelity
+::: {.columns}
 
-- Dispersal and philopatry
+::: {.column}
+![](images/social/xv_1.jpg)
+:::
 
-- Social networks
+::: {.column}
+![](images/behaviour/male_behaviour.jpg)
+:::
 
-- Behavioural ecology of bees
+::: {.column}
+![](images/brood/Xylocopa_virginica_brood_cells_w_pupae.jpg)
+:::
 
-## Current Research Themes
+:::
 
-### Social Organization in Carpenter Bees
+[View full gallery →](gallery.qmd)
 
-Understanding how reproductive behaviour, nest use, and social interactions contribute to the formation and maintenance of social groups.
+## Current Position
 
-### Sleeping Associations
+University of Victoria, Biology, Senior Lab Instructor
 
-Investigating sex-specific patterns of sleeping associations and partner fidelity.
+## Explore
 
-### Nest Fidelity and Dispersal
+::: {.columns}
 
-Examining how individuals move among nests and the implications for social evolution.
+::: {.column width="33%"}
 
-### Environmental Variation
+### Research
 
-Understanding how weather and resource availability influence maternal investment and offspring production.
+Research themes, study systems, and ongoing projects.
 
-## Quick Links
+[Learn more →](/research.html)
 
-- [Research](https://m365.cloud.microsoft/chat/conversation/research.qmd)
+:::
 
-- [Publications](https://m365.cloud.microsoft/chat/conversation/publications.qmd)
+::: {.column width="33%"}
 
-- [Teaching](https://m365.cloud.microsoft/chat/conversation/teaching.qmd)
+### Publications
 
-- [CV](https://m365.cloud.microsoft/chat/conversation/cv.qmd)
+Peer-reviewed publications and conference outputs.
 
-- [Contact](https://m365.cloud.microsoft/chat/conversation/contact.qmd)
+[View publications →](/publications.html)
+
+:::
+
+::: {.column width="33%"}
+
+### CV
+
+Academic appointments, awards, and experience.
+
+[Download CV →](/cv.html)
+
+:::
+
+:::

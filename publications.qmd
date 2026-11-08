@@ -9,7 +9,6 @@ execute:
 pubs <- readRDS("publications.rds")
 ```
 
-# Publications
 
 My research focuses on behavioural ecology, social evolution, social organization, dispersal, and social networks in bees.
 

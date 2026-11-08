@@ -10,13 +10,20 @@ body {
 
 .navbar {
   background-color: var(--bee-green);
+  border-bottom: 3px solid var(--bee-gold);
 }
 
 .navbar a {
   color: white !important;
 }
 
-h1, h2, h3 {
+.navbar-brand {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
   color: var(--bee-green);
 }
 
@@ -26,6 +33,10 @@ h1, h2, h3 {
 
 .quarto-title-banner h1 {
   color: white;
+}
+
+img {
+  border-radius: 8px;
 }
 
 /* Buttons */
@@ -47,17 +58,32 @@ h1, h2, h3 {
 }
 
 .btn-primary {
-  background-color: #0055A4; /* UVic blue */
+  background-color: #0055a4; /* UVic blue */
 }
 
 .btn-success {
-  background-color: #A6CE39; /* ORCID green */
+  background-color: #a6ce39; /* ORCID green */
 }
 
 .btn-info {
-  background-color: #4285F4; /* Google blue */
+  background-color: #4285f4; /* Google blue */
 }
 
 .btn-secondary {
-  background-color: #00CCBB; /* ResearchGate-style teal */
+  background-color: #00ccbb; /* ResearchGate teal */
+}
+
+a {
+  color: var(--bee-green);
+}
+
+a:hover {
+  color: var(--bee-gold);
+}
+
+.quarto-figure figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
 }

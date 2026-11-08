@@ -1,0 +1,73 @@
+---
+title: "Carpenter Bee Research Gallery"
+author: "Dr. Lyndon Duff"
+page-layout: full
+---
+
+## Social Groups
+
+::: {.columns}
+
+::: {.column}
+
+![Carpenter bee observed in the field during long-term ecological research.](images/social/xv_1.jpg){fig-cap="Field observation from a long-term study population."}
+:::
+
+::: {.column}
+
+![Carpenter bees interacting at a nest entrance, showing close spatial associations among individuals.](images/social/xv_2.jpg){fig-cap="Individuals associated within a social group. These observations help reveal how social relationships are formed and maintained."}
+
+:::
+
+::: {.column}
+
+![Several carpenter bees occupying the same nesting area and participating in group living.](images/social/xv_3.jpg){fig-cap="Group-living carpenter bees. Long-term observations allow researchers to track partner fidelity and changes in social structure through time."}
+
+:::
+
+:::
+
+## Behaviour
+
+![Carpenter bee observed during behavioural field research.](images/behaviour/male_behaviour.jpg){fig-align="center" width="70%" fig-cap="Field observation used to investigate behavioural ecology of territorial males, RHP, and territorial contests for access to mates in carpenter bees."}
+
+## Nesting Biology
+
+::: {.columns}
+
+::: {.column}
+
+![Brood cells containing pollen provisions within a carpenter bee nest.](images/brood/Xylocopa_virginica_brood_cells_w_pollen_balls.jpg){fig-cap="Brood cells containing pollen provisions prepared by a female carpenter bee. These provisions support larval development before pupation."}
+
+:::
+
+::: {.column}
+
+![Developing pupae within carpenter bee brood cells.](images/brood/Xylocopa_virginica_brood_cells_w_pupae.jpg){fig-cap="Developing pupae within brood cells. Examination of brood development would help link reproductive investment to environmental and ecological conditions."}
+
+:::
+
+:::
+## Other Field Observations
+
+::: {.columns}
+
+::: {.column}
+
+![Carpenter bee observed in the field during long-term ecological research.](images/field/xv_4.jpg){fig-cap="Field observation from a long-term study population."}
+
+:::
+
+::: {.column}
+
+![Marked carpenter bee used in studies of movement and nest fidelity.](images/field/xv_5.jpg){fig-cap="Monitoring marked individuals allows us to examine behaviour, nest fidelity, and dispersal."}
+
+:::
+
+::: {.column}
+
+![Carpenter bee observed during population monitoring and behavioural research.](images/field/xv_6.jpg){fig-cap="Field studies connect individual behaviour with population-level patterns of social organization."}
+
+:::
+
+:::
