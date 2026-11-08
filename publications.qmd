@@ -44,34 +44,3 @@ My research focuses on behavioural ecology, social evolution, social organizatio
   *Annual weather variation altered maternal foraging effort and investment in offspring body size of the eastern carpenter bee, Xylocopa virginica (Hymenoptera: Apidae).*
   
 ## Publications
-
-```{r, results='asis'}
-
-for(yr in sort(unique(pubs$year), decreasing = TRUE)) {
-
-  cat(paste0("\n## ", yr, "\n\n"))
-
-  papers <- pubs[pubs$year == yr, ]
-
-  for(i in seq_len(nrow(papers))) {
-
-    cat(
-      paste0(
-        papers$authors[i],
-        ". ",
-        "*", papers$title[i], "*",
-        ". _", papers$journal[i], "_",
-        ifelse(
-          is.na(papers$volume[i]),
-          "",
-          paste0(", ", papers$volume[i])
-        ),
-        ". https://doi.org/",
-        papers$doi[i],
-        "\n\n"
-      )
-    )
-  }
-}
-```
-
