@@ -5,11 +5,6 @@ execute:
   echo: false
 ---
 
-```{r}
-pubs <- readRDS("publications.rds")
-```
-
-
 My research focuses on behavioural ecology, social evolution, social organization, dispersal, and social networks in bees.
 
 ## Research Profiles
