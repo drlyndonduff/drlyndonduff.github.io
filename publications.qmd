@@ -1,52 +1,82 @@
 ---
 title: "Publications"
-author: "Dr. Lyndon B. Duff"
-execute:
-  echo: false
+subtitle: "Behavioural ecology, social evolution, dispersal, and social networks in bees"
 ---
 
-My research focuses on behavioural ecology, social evolution, social organization, dispersal, and social networks in bees.
+::: {.link-row}
+[<i class="bi bi-person-badge-fill" aria-hidden="true"></i> ORCID](https://orcid.org/0000-0001-9939-5417){.btn-pill}
+[<i class="bi bi-mortarboard-fill" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?hl=en&user=rIDnf2UAAAAJ){.btn-pill}
+[<i class="bi bi-journal-text" aria-hidden="true"></i> ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn-pill}
+:::
 
-## Research Profiles
+## Peer-reviewed publications
 
-[ORCID](https://orcid.org/0000-0001-9939-5417){.btn .btn-success}
+### 2023
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=rIDnf2UAAAAJ){.btn .btn-primary}
+::: {.pub}
+[Published]{.pub-status .published} [The Canadian Entomologist]{.pub-venue}
 
-[ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn .btn-info}
+[Evidence for multiple mating by female eastern carpenter bees, *Xylocopa virginica* (Hymenoptera: Apidae).]{.pub-title}
 
-# Current Manuscripts
+**Duff, L.B.**, Proulx, A.N.M., Corbin, L.A.-J., and Richards, M.H. *The Canadian Entomologist* **155**, e10.
 
-## Under Review
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> doi:10.4039/tce.2022.51](https://doi.org/10.4039/tce.2022.51){.btn-pill}
+:::
 
-- **Duff, L.B., Mesich, J.M., and Richards, M.H.**
-  *Individual Strategies Shape Social Structure Through Reproductive Behaviour, Nest Use, and Queueing.*
-  _Submitted to Animal Behaviour._
+### 2016
 
-- **Corbin, L.A.-J., Duff, L.B., and Richards, M.H.**
-  *Variation in male mating behaviour in the eastern carpenter bee.*
-  _Submitted to Journal of Zoology._
+::: {.pub}
+[Published]{.pub-status .published} [Canadian Journal of Microbiology]{.pub-venue}
 
-## In Preparation
+[Diversity of fungi from the mound nests of *Formica ulkei* and adjacent non-nest soils.]{.pub-title}
 
-- **Author list TBD.**
-  *Effects of social foundress composition and annual variation on behavioural transitions between tolerance and aggression, and the persistence of behavioural states in eastern carpenter bees during circle-tube experiments.*
+**Duff, L.B.**, Urichuk, T.M., Hodgins, L.N., Young, J.R., and Untereiner, W.A. *Canadian Journal of Microbiology.*
 
-- **Duff, L.B. and Richards, M.H.**
-  *Sex-specific patterns of dispersal and semi-fluid sleeping associations in the eastern carpenter bee.*
+[<i class="bi bi-link-45deg" aria-hidden="true"></i> doi:10.1139/cjm-2015-0628](https://doi.org/10.1139/cjm-2015-0628){.btn-pill}
+:::
 
-- **Duff, L.B. and Richards, M.H.**
-  *Annual weather variation altered maternal foraging effort and investment in offspring body size of the eastern carpenter bee, Xylocopa virginica (Hymenoptera: Apidae).*
-  
-# Publications
+## Manuscripts in progress
 
-## 2023
+### Under review
 
-**Duff, L.B., Proulx, A.N.M., Corbin, L.A.-J., and Richards, M.H.**
-  *Evidence for multiple mating by female eastern carpenter bees, Xylocopa virginica (Hymenoptera: Apidae).* _The Canadian Entomologist_, **155**, e10. DOI: https://doi.org/10.4039/tce.2022.51
+::: {.pub}
+[Under review]{.pub-status} [Animal Behaviour]{.pub-venue}
 
+[Individual strategies shape social structure through reproductive behaviour, nest use, and queueing.]{.pub-title}
 
-## 2016
+**Duff, L.B.**, Mesich, J.M., and Richards, M.H.
+:::
 
-**Duff, L.B., Urichuk, T.M., Hodgins, L.N., Young, J.R., and Untereiner, W.A.**
-  *Diversity of fungi from the mound nests of Formica ulkei and adjacent non-nest soils.* _Canadian Journal of Microbiology._ DOI: https://doi.org/10.1139/cjm-2015-0628
+::: {.pub}
+[Under review]{.pub-status} [Journal of Zoology]{.pub-venue}
+
+[Variation in male mating behaviour in the eastern carpenter bee.]{.pub-title}
+
+Corbin, L.A.-J., **Duff, L.B.**, and Richards, M.H.
+:::
+
+### In preparation
+
+::: {.pub}
+[In preparation]{.pub-status}
+
+[Sex-specific patterns of dispersal and semi-fluid sleeping associations in the eastern carpenter bee.]{.pub-title}
+
+**Duff, L.B.** and Richards, M.H.
+:::
+
+::: {.pub}
+[In preparation]{.pub-status}
+
+[Annual weather variation altered maternal foraging effort and investment in offspring body size of the eastern carpenter bee, *Xylocopa virginica* (Hymenoptera: Apidae).]{.pub-title}
+
+**Duff, L.B.** and Richards, M.H.
+:::
+
+::: {.pub}
+[In preparation]{.pub-status}
+
+[Effects of social foundress composition and annual variation on behavioural transitions between tolerance and aggression, and the persistence of behavioural states in eastern carpenter bees during circle-tube experiments.]{.pub-title}
+
+Author list to be determined.
+:::

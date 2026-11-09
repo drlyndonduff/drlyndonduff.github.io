@@ -1,77 +1,128 @@
-# Dr. Lyndon B. Duff
+---
+title: "Dr. Lyndon B. Duff"
+subtitle: "Behavioural ecologist studying social ecology and evolution in carpenter bees"
+image: images/profile/profile.png
+pagetitle: "Dr. Lyndon B. Duff · Behavioural Ecology"
+title-block-banner: false
+about:
+  template: jolla
+  image-shape: round
+  image-width: 13em
+  links:
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en
+    - icon: person-badge-fill
+      text: ORCID
+      href: https://orcid.org/0000-0001-9939-5417
+    - icon: journal-text
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Lyndon-Duff
+    - icon: building
+      text: UVic Biology
+      href: https://www.uvic.ca/science/biology/people/instructors/index.php
+---
 
-![](images/social/xv_2.jpg){fig-align="center"}
-
-### Behavioural Ecologist Studying Social Ecology and Evolution in Carpenter Bees
-
+::: {.lead-text}
 I am a behavioural ecologist interested in how ecological and evolutionary processes shape social organization, cooperation, dispersal, and reproductive behaviour.
+:::
 
 Using long-term field studies of large carpenter bees (*Xylocopa virginica*), I investigate how individual behavioural decisions scale up to population-level patterns of social structure and social evolution.
 
-## Research Highlights
-
-- Long-term study of facultatively social carpenter bees
-- Social network analysis of bee associations
-- Nest fidelity and dispersal dynamics
-- Environmental drivers of reproductive behaviour
-- Behavioural mechanisms underlying social evolution
-
-## Research in Images
-
-::: {.columns}
-
-::: {.column}
-![](images/social/xv_1.jpg)
+::: {.note-box}
+**Current position:** Senior Laboratory Instructor, Department of Biology, University of Victoria
 :::
 
-::: {.column}
-![](images/behaviour/male_behaviour.jpg)
+## Research highlights
+
+::: {.card-grid}
+
+::: {.tile}
+[<i class="bi bi-people-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### Facultative sociality
+
+Long-term study of facultatively social carpenter bees.
 :::
 
-::: {.column}
-![](images/brood/Xylocopa_virginica_brood_cells_w_pupae.jpg)
+::: {.tile}
+[<i class="bi bi-diagram-3-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### Social networks
+
+Social network analysis of bee associations.
+:::
+
+::: {.tile}
+[<i class="bi bi-geo-alt-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### Nest fidelity & dispersal
+
+Nest fidelity and dispersal dynamics.
+:::
+
+::: {.tile}
+[<i class="bi bi-cloud-sun-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### Environment & reproduction
+
+Environmental drivers of reproductive behaviour.
+:::
+
+::: {.tile}
+[<i class="bi bi-bezier2" aria-hidden="true"></i>]{.tile-icon}
+
+#### Social evolution
+
+Behavioural mechanisms underlying social evolution.
 :::
 
 :::
 
-[View full gallery →](gallery.qmd)
+## Research in images
 
-## Current Position
+::: {.image-strip}
+![](images/social/xv_1.jpg){fig-alt="Eastern carpenter bee in the field"}
 
-University of Victoria, Biology, Senior Lab Instructor
+![](images/behaviour/male_behaviour.jpg){fig-alt="Male carpenter bee during behavioural observations"}
+
+![](images/brood/Xylocopa_virginica_brood_cells_w_pupae.jpg){fig-alt="Carpenter bee brood cells with pupae"}
+:::
+
+[View the full gallery →](gallery.qmd)
 
 ## Explore
 
-::: {.columns}
+::: {.card-grid}
 
-::: {.column width="33%"}
+::: {.tile}
+[<i class="bi bi-search" aria-hidden="true"></i>]{.tile-icon}
 
-### Research
+#### Research
 
 Research themes, study systems, and ongoing projects.
 
-[Learn more →](/research.html)
-
+[Learn more →](research.qmd)
 :::
 
-::: {.column width="33%"}
+::: {.tile}
+[<i class="bi bi-journal-richtext" aria-hidden="true"></i>]{.tile-icon}
 
-### Publications
+#### Publications
 
-Peer-reviewed publications and conference outputs.
+Peer-reviewed publications and manuscripts in progress.
 
-[View publications →](/publications.html)
-
+[View publications →](publications.qmd)
 :::
 
-::: {.column width="33%"}
+::: {.tile}
+[<i class="bi bi-file-earmark-person" aria-hidden="true"></i>]{.tile-icon}
 
-### CV
+#### CV
 
 Academic appointments, awards, and experience.
 
-[Download CV →](/cv.html)
-
+[View CV →](cv.qmd)
 :::
 
 :::

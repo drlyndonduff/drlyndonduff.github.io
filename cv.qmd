@@ -1,43 +1,58 @@
 ---
-title: "CV"
-author: "Dr. Lyndon B. Duff"
+title: "Curriculum Vitae"
+subtitle: "Behavioural ecology · Social evolution · Bee biology"
+toc: true
+toc-title: "On this page"
+toc-location: right
 ---
 
-# Dr. Lyndon B. Duff
+::: {.link-row}
+[<i class="bi bi-person-badge-fill" aria-hidden="true"></i> ORCID](https://orcid.org/0000-0001-9939-5417){.btn-pill}
+[<i class="bi bi-mortarboard-fill" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en){.btn-pill}
+[<i class="bi bi-journal-text" aria-hidden="true"></i> ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn-pill}
+:::
 
-Behavioural Ecology · Social Evolution · Bee Biology
+::: {.note-box}
+A complete curriculum vitae is available upon request or as a downloadable PDF.
+:::
 
-## Professional Profiles
+## Education
 
-- [ORCID](https://orcid.org/0000-0001-9939-5417)
-- [Google Scholar](https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en)
-- [ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff)
+::: {.cv-item}
+[2024]{.cv-date}
 
-> A complete curriculum vitae is available upon request or as a downloadable PDF.
+::: {}
+**Ph.D. Biology (Ecology and Evolution)**\
+Brock University, Ontario, Canada
+:::
+:::
 
----
+::: {.cv-item}
+[2018]{.cv-date}
 
-# Education
+::: {}
+**M.Sc. Biology (Ecology and Evolution)**\
+Brock University, Ontario, Canada
+:::
+:::
 
-**Ph.D. Biology (Ecology and Evolution)**  
-Brock University, Ontario, Canada  
-2024
+::: {.cv-item}
+[2015]{.cv-date}
 
-**M.Sc. Biology (Ecology and Evolution)**  
-Brock University, Ontario, Canada  
-2018
+::: {}
+**B.Sc. (Honours) Biology (Ecology and Evolution)**\
+Brandon University, Manitoba, Canada
+:::
+:::
 
-**B.Sc. (Honours) Biology (Ecology and Evolution)**  
-Brandon University, Manitoba, Canada  
-2015
+## Academic appointments
 
----
+::: {.cv-item}
+[2025–present]{.cv-date}
 
-# Academic Appointments
-
-## Senior Laboratory Instructor
-**University of Victoria**  
-2025–Present
+::: {}
+**Senior Laboratory Instructor**\
+University of Victoria
 
 Courses coordinated and instructed:
 
@@ -48,31 +63,30 @@ Courses coordinated and instructed:
 - BIOL 330 Study Design and Data Analysis
 
 Responsibilities include laboratory coordination, teaching support, and supervision of teaching assistants.
+:::
+:::
 
-## Course Instructor
-**Brock University**  
-2025
+::: {.cv-item}
+[2025]{.cv-date}
 
-Instructor for Principles of Zoology.
+::: {}
+**Course Instructor**\
+Brock University
 
-Responsibilities included:
+Instructor for Principles of Zoology. Responsibilities included course delivery, assessment development, student advising and office hours, and classroom management.
+:::
+:::
 
-- Course delivery
-- Assessment development
-- Student advising and office hours
-- Classroom management
+## Research experience
 
----
+::: {.cv-item}
+[2018–2024]{.cv-date}
 
-# Research Experience
-
-## Doctoral Researcher
-**Brock University**  
-2018–2024
+::: {}
+**Doctoral Researcher**\
+Brock University
 
 Research focused on the behavioural ecology, reproductive behaviour, social organization, and population ecology of eastern carpenter bees (*Xylocopa virginica*).
-
-Highlights:
 
 - Four years of intensive field research
 - Molecular ecology and microsatellite analyses
@@ -80,45 +94,51 @@ Highlights:
 - Longitudinal behavioural datasets
 - Generalized linear and mixed-effects modelling
 - Secured more than $60,000 in research funding
+:::
+:::
 
-## Master's Researcher
-**Brock University**  
-2015–2018
+::: {.cv-item}
+[2015–2018]{.cv-date}
+
+::: {}
+**Master's Researcher**\
+Brock University
 
 Research focused on behavioural interactions and social organization in eastern carpenter bees.
-
-Highlights:
 
 - DNA sequencing and molecular ecology
 - Social-network analysis
 - Behavioural observations
 - Statistical modelling
 - Secured more than $35,000 in research funding
+:::
+:::
 
-## Research Assistant
-**Brandon University**  
-2014–2015
+::: {.cv-item}
+[2014–2015]{.cv-date}
+
+::: {}
+**Research Assistant**\
+Brandon University
 
 Research on fungal diversity associated with ant mounds.
-
-Highlights:
 
 - Molecular techniques
 - ITS barcoding
 - Field ecology
 - Community ecology
 - Published peer-reviewed research
+:::
+:::
 
----
+## Government experience
 
-# Government Experience
+::: {.cv-item}
+[2024–2025]{.cv-date}
 
-## Aquatic Toxicology Technician / Intern
-
-**Ontario Ministry of the Environment, Conservation and Parks**  
-2024–2025
-
-Responsibilities included:
+::: {}
+**Aquatic Toxicology Technician / Intern**\
+Ontario Ministry of the Environment, Conservation and Parks
 
 - Acute and chronic aquatic toxicity testing
 - Rainbow trout bioassays
@@ -127,110 +147,100 @@ Responsibilities included:
 - Statistical analysis and reporting
 - Quality assurance and quality control
 - Laboratory information management systems (LIMS)
+:::
+:::
 
----
+## Teaching experience
 
-# Teaching Experience
+::: {.cv-item}
+[2015–2023]{.cv-date}
 
-## Teaching Assistant and Laboratory Demonstrator
-**Brock University**  
-2015–2023
+::: {}
+**Teaching Assistant and Laboratory Demonstrator**\
+Brock University
 
-Supported instruction in:
+Supported instruction in Animal Behaviour, Molecular Ecology, Ecology, Evolutionary Biology, and Data Analysis using R. Contributed to laboratory instruction, undergraduate mentoring, statistical training, and data science skills development.
+:::
+:::
 
-- Animal Behaviour
-- Molecular Ecology
-- Ecology
-- Evolutionary Biology
-- Data Analysis using R
+## Technical expertise
 
-Contributed to:
+#### Quantitative and statistical analysis
 
-- Laboratory instruction
-- Undergraduate mentoring
-- Statistical training
-- Data science skills development
+::: {.chips}
+[R (12+ years)]{.chip}
+[Tidyverse]{.chip}
+[ggplot2]{.chip}
+[Plotly]{.chip}
+[Generalized linear models]{.chip}
+[Generalized linear mixed models]{.chip}
+[Logistic regression]{.chip}
+[Principal components analysis]{.chip}
+[Social network analysis]{.chip}
+:::
 
----
+#### Molecular ecology
 
-# Technical Expertise
+::: {.chips}
+[DNA extraction]{.chip}
+[Microsatellite genotyping]{.chip}
+[PCR]{.chip}
+[Gel electrophoresis]{.chip}
+[DNA sequencing]{.chip}
+[Sequence alignment]{.chip}
+[GeneMapper]{.chip}
+[UGENE]{.chip}
+[BLAST]{.chip}
+:::
 
-## Quantitative and Statistical Analysis
+#### Field and behavioural ecology
 
-- R (12+ years)
-- Tidyverse
-- ggplot2
-- Plotly
-- Generalized Linear Models (GLMs)
-- Generalized Linear Mixed Models (GLMMs)
-- Logistic Regression
-- Principal Components Analysis
-- Social Network Analysis
+::: {.chips}
+[Behavioural observation]{.chip}
+[Mark–recapture techniques]{.chip}
+[Social network construction]{.chip}
+[Long-term field studies]{.chip}
+[Insect ecology]{.chip}
+[Pollinator biology]{.chip}
+:::
 
-## Molecular Ecology
+## Research interests
 
-- DNA extraction
-- Microsatellite genotyping
-- PCR
-- Gel electrophoresis
-- DNA sequencing
-- Sequence alignment
-- GeneMapper
-- UGENE
-- BLAST
+::: {.chips}
+[Social evolution]{.chip}
+[Cooperative behaviour]{.chip}
+[Social networks]{.chip}
+[Nest fidelity]{.chip}
+[Dispersal and philopatry]{.chip}
+[Fission–fusion dynamics]{.chip}
+[Behavioural ecology of bees]{.chip}
+[Reproductive behaviour]{.chip}
+:::
 
-## Field and Behavioural Ecology
-
-- Behavioural observation
-- Mark–recapture techniques
-- Social network construction
-- Long-term field studies
-- Insect ecology
-- Pollinator biology
-
----
-
-# Research Interests
-
-- Social evolution
-- Cooperative behaviour
-- Social networks
-- Nest fidelity
-- Dispersal and philopatry
-- Fission-fusion dynamics
-- Behavioural ecology of bees
-- Reproductive behaviour
-
----
-
-# Funding Success
+## Funding
 
 Competitive awards and research funding secured in excess of:
 
-- $60,000+ (Ph.D.)
-- $35,000+ (M.Sc.)
-- $10,000+ (Undergraduate)
+::: {.card-grid}
+::: {.tile}
+#### $60,000+
 
----
+Ph.D.
+:::
 
-# Publications
+::: {.tile}
+#### $35,000+
 
-Please see the dedicated [Publications](publications.qmd) page for a complete and continually updated list of publications.
+M.Sc.
+:::
 
----
+::: {.tile}
+#### $10,000+
 
-# Current Manuscripts
+Undergraduate
+:::
+:::
 
-## Under Review
+## Publications
 
-- Duff, L.B., Mesich, J.M., and Richards, M.H. *Individual Strategies Shape Social Structure Through Reproductive Behaviour, Nest Use, and Queueing.* Submitted to *Animal Behaviour*.
-
-- Corbin, L.A.-J., Duff, L.B., and Richards, M.H. *Variation in male mating behaviour in the eastern carpenter bee.* Submitted to *Journal of Zoology*.
-
-## In Preparation
-
-- Effects of social foundress composition and annual variation on behavioural transitions between tolerance and aggression, and the persistence of behavioural states in eastern carpenter bees during circle-tube experiments.
-
-- Duff, L.B. and Richards, M.H. *Sex-specific patterns of dispersal and semi-fluid sleeping associations in the eastern carpenter bee.*
-
-- Duff, L.B. and Richards, M.H. *Annual weather variation altered maternal foraging effort and investment in offspring body size of the eastern carpenter bee, Xylocopa virginica (Hymenoptera: Apidae).*
+Please see the [Publications](publications.qmd) page for a complete and continually updated list of publications and manuscripts in progress.

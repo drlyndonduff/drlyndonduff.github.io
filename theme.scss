@@ -1,0 +1,561 @@
+/*-- scss:defaults --*/
+
+// Palette: carpenter-bee green and gold on a warm off-white
+$bee-green:      #2f4f2a;
+$bee-green-dark: #1f351c;
+$bee-green-soft: #e8eee3;
+$bee-gold:       #d8a31a;
+$bee-gold-soft:  #f7ecd0;
+$bee-cream:      #fbfaf6;
+$ink:            #23281f;
+$muted:          #5f6658;
+
+$primary:    $bee-green;
+$secondary:  $muted;
+$warning:    $bee-gold;
+$body-bg:    $bee-cream;
+$body-color: $ink;
+$link-color: #3c6b34;
+$link-hover-color: darken($bee-gold, 8%);
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-weight:   600;
+$headings-color:         $bee-green-dark;
+$font-size-root:         17px;
+$line-height-base:       1.65;
+
+$border-radius:    0.6rem;
+$border-radius-lg: 0.9rem;
+
+$navbar-bg: $bee-green;
+$navbar-fg: rgba(255, 255, 255, 0.88);
+$navbar-hl: $bee-gold;
+
+$footer-bg: $bee-green-dark;
+$footer-fg: rgba(255, 255, 255, 0.8);
+
+$title-banner-bg:    $bee-green;
+$title-banner-color: #ffffff;
+
+/*-- scss:rules --*/
+
+// ---------- Navigation ----------------------------------------------------
+
+.navbar {
+  border-bottom: 3px solid $bee-gold;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand .navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #fff !important;
+  border-bottom-color: $bee-gold;
+}
+
+// ---------- Title banner (interior pages) ---------------------------------
+
+.quarto-title-banner {
+  background: linear-gradient(120deg, $bee-green-dark 0%, $bee-green 60%, #3f6436 100%);
+  border-bottom: 3px solid $bee-gold;
+  padding-top: 2.4rem;
+  padding-bottom: 2.2rem;
+}
+
+.quarto-title-banner .title {
+  font-size: 2.4rem;
+}
+
+.quarto-title-banner .subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: $font-family-sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+// ---------- Typography -----------------------------------------------------
+
+h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid $bee-gold-soft;
+}
+
+h3 {
+  margin-top: 1.6rem;
+}
+
+.lead-text {
+  font-size: 1.15rem;
+  color: $muted;
+}
+
+img {
+  border-radius: $border-radius;
+}
+
+.quarto-figure figcaption,
+figcaption {
+  font-size: 0.88rem;
+  color: $muted;
+  text-align: left;
+  margin-top: 0.45rem;
+}
+
+// ---------- Home page (about: jolla) ----------------------------------------
+
+div.quarto-about-jolla {
+  .about-image {
+    border: 4px solid #fff;
+    box-shadow: 0 6px 24px rgba(31, 53, 28, 0.25);
+  }
+
+  .about-entity h1.about-title {
+    font-size: 2.6rem;
+    color: $bee-green-dark;
+  }
+
+  .about-entity .about-subtitle {
+    font-size: 1.15rem;
+    color: $muted;
+  }
+
+  .about-links .about-link {
+    border-color: $bee-green;
+    color: $bee-green;
+    border-radius: 999px;
+    padding: 0.35rem 0.95rem;
+    transition: all 0.15s ease;
+
+    &:hover {
+      background: $bee-green;
+      color: #fff;
+    }
+  }
+}
+
+// ---------- Cards -----------------------------------------------------------
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 1.1rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.tile {
+  background: #fff;
+  border: 1px solid rgba(47, 79, 42, 0.12);
+  border-top: 4px solid $bee-gold;
+  border-radius: $border-radius-lg;
+  padding: 1.1rem 1.2rem 1rem;
+  box-shadow: 0 2px 8px rgba(31, 53, 28, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(31, 53, 28, 0.12);
+  }
+
+  h3, h4 {
+    margin-top: 0;
+    font-size: 1.15rem;
+    border: none;
+  }
+
+  p {
+    margin-bottom: 0.6rem;
+    color: $muted;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.tile-icon {
+  font-size: 1.6rem;
+  color: $bee-green;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+// Image strip on the home page
+
+.image-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  }
+}
+
+// ---------- Research feature rows -------------------------------------------
+
+.feature {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 1.8rem;
+  align-items: center;
+  margin: 2.2rem 0;
+
+  &.reverse {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+
+    .feature-img {
+      order: 2;
+    }
+  }
+
+  .feature-img img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .feature-img p {
+    margin: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .feature,
+  .feature.reverse {
+    grid-template-columns: 1fr;
+
+    .feature-img {
+      order: 0;
+    }
+  }
+}
+
+// Chips (methods, skills)
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.8rem 0 1.4rem;
+
+  p {
+    display: contents;
+  }
+}
+
+.chip {
+  display: inline-block;
+  background: $bee-green-soft;
+  color: $bee-green-dark;
+  border: 1px solid rgba(47, 79, 42, 0.18);
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+// ---------- Gallery ---------------------------------------------------------
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: 1.2rem;
+  margin: 1rem 0 2rem;
+
+  .quarto-figure {
+    margin: 0;
+    background: #fff;
+    border-radius: $border-radius-lg;
+    padding: 0.6rem 0.6rem 0.8rem;
+    box-shadow: 0 2px 10px rgba(31, 53, 28, 0.08);
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    cursor: zoom-in;
+  }
+}
+
+// ---------- Publications ----------------------------------------------------
+
+.pub {
+  background: #fff;
+  border-left: 4px solid $bee-green;
+  border-radius: 0 $border-radius $border-radius 0;
+  padding: 0.85rem 1.1rem;
+  margin: 0.8rem 0;
+  box-shadow: 0 1px 6px rgba(31, 53, 28, 0.06);
+
+  p {
+    margin-bottom: 0.35rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pub-title {
+  font-weight: 600;
+  color: $ink;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: $muted;
+}
+
+.pub-status {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  background: $bee-gold-soft;
+  color: darken($bee-gold, 25%);
+  margin-right: 0.4rem;
+}
+
+.pub-status.published {
+  background: $bee-green-soft;
+  color: $bee-green-dark;
+}
+
+// Link buttons (profiles, DOIs)
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.6rem 0 1.4rem;
+
+  p {
+    display: contents;
+  }
+}
+
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1.5px solid $bee-green;
+  color: $bee-green !important;
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: $bee-green;
+    color: #fff !important;
+  }
+}
+
+// ---------- CV timeline -----------------------------------------------------
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(47, 79, 42, 0.12);
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  p {
+    margin-bottom: 0.3rem;
+  }
+
+  ul {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.cv-date {
+  font-weight: 600;
+  color: $bee-green;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 575.98px) {
+  .cv-item {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
+
+// ---------- Callout-style note ----------------------------------------------
+
+.note-box {
+  background: $bee-gold-soft;
+  border-left: 4px solid $bee-gold;
+  border-radius: 0 $border-radius $border-radius 0;
+  padding: 0.8rem 1.1rem;
+  margin: 1rem 0 1.6rem;
+  color: $ink;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ---------- Footer ----------------------------------------------------------
+
+.nav-footer {
+  border-top: 3px solid $bee-gold;
+  font-size: 0.92rem;
+
+  a {
+    color: rgba(255, 255, 255, 0.85) !important;
+
+    &:hover {
+      color: $bee-gold !important;
+    }
+  }
+}
+
+// ---------- Small screens: no overlapping or overflowing text -------------
+
+// Headings scale with the screen instead of jumping between fixed sizes
+.quarto-title-banner .title {
+  font-size: clamp(1.75rem, 1.2rem + 2.4vw, 2.4rem);
+  line-height: 1.2;
+}
+
+div.quarto-about-jolla .about-entity h1.about-title {
+  font-size: clamp(1.9rem, 1.3rem + 2.8vw, 2.6rem);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 1.1rem + 1vw, 1.75rem);
+  line-height: 1.25;
+}
+
+// Long words, DOIs and URLs wrap instead of running off the screen
+.tile,
+.pub,
+.cv-item,
+.note-box,
+.feature-text,
+.quarto-title-banner .title,
+.quarto-title-banner .subtitle {
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+}
+
+// Collapsed menu: one link per line with clear spacing
+@media (max-width: 1199.98px) {
+  .navbar-collapse .nav-link {
+    padding: 0.55rem 0.25rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .navbar-collapse .nav-link.active,
+  .navbar-collapse .nav-link:hover {
+    border-bottom-color: $bee-gold;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand .navbar-title {
+    font-size: 1.05rem;
+  }
+
+  .quarto-title-banner {
+    padding-top: 1.6rem;
+    padding-bottom: 1.4rem;
+  }
+
+  div.quarto-about-jolla .about-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+
+  .btn-pill {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.85rem;
+  }
+
+  .feature {
+    margin: 1.6rem 0;
+    gap: 1rem;
+  }
+}
+
+// Footer stacks on narrow screens
+@media (max-width: 767.98px) {
+  .nav-footer {
+    flex-direction: column;
+    gap: 0.4rem;
+    text-align: center;
+
+    .nav-footer-left,
+    .nav-footer-center,
+    .nav-footer-right {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+// ---------- Male portrait grid (mixed photo shapes, square thumbnails) -----
+
+.gallery.mugshots {
+  grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
+  gap: 0.7rem;
+
+  .quarto-figure {
+    padding: 0.35rem;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+// Home page subtitle (jolla template renders it as p.subtitle.lead)
+div.quarto-about-jolla p.subtitle.lead {
+  text-align: center;
+  color: $muted;
+  font-size: clamp(1.05rem, 0.95rem + 0.5vw, 1.2rem);
+}

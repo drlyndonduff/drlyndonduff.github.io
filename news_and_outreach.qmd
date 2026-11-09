@@ -1,56 +1,98 @@
 ---
-title: "News and Outreach"
-author: "Dr. Lyndon B. Duff"
+title: "News & Outreach"
+subtitle: "Sharing carpenter bee science beyond academia"
 ---
 
 Communicating science beyond academia is an important part of my research. My work on the behavioural ecology, social organization, and reproductive biology of eastern carpenter bees has been featured through university profiles, research networks, scientific publications, outreach activities, and conference presentations.
 
-# University News and Research Features
+## University news and research features
 
-## Brock Bee Lab Research Profile
+::: {.card-grid}
+
+::: {.tile}
+[<i class="bi bi-mortarboard-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### Brock Bee Lab research profile
 
 My doctoral research examined how environmental variation and social behaviour influence maternal investment, reproduction, and social organization in eastern carpenter bees.
 
-🔗 [Read the Brock Bee Lab Profile](https://brockbeelab.wordpress.com/lyndon-duff-phd-student/)
+[Read the profile →](https://brockbeelab.wordpress.com/lyndon-duff-phd-student/)
+:::
 
-## PhD Thesis Defence
+::: {.tile}
+[<i class="bi bi-award-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### PhD thesis defence
 
 Brock University highlighted my PhD research examining environmental and social influences on foraging behaviour, maternal investment, and mating frequency in eastern carpenter bees.
 
-🔗 [Read the Thesis Defence Announcement](https://brocku.ca/mathematics-science/2023/11/02/4823/)
+[Read the announcement →](https://brocku.ca/mathematics-science/2023/11/02/4823/)
+:::
 
-## University of Victoria
+::: {.tile}
+[<i class="bi bi-building" aria-hidden="true"></i>]{.tile-icon}
+
+#### University of Victoria
 
 Currently serving as a Senior Laboratory Instructor in the Department of Biology at the University of Victoria.
 
-🔗 [University of Victoria Biology Profile](https://www.uvic.ca/science/biology/people/instructors/index.php)
+[UVic Biology profile →](https://www.uvic.ca/science/biology/people/instructors/index.php)
+:::
 
----
+:::
 
-# Media and Science Communication
+## Media and science communication
 
-## Inside the Brock Bee Lab
+::: {.card-grid}
+
+::: {.tile}
+[<i class="bi bi-camera-video-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### Inside the Brock Bee Lab
 
 A short video showcasing research activities and field studies conducted through the Brock Bee Lab.
 
-🔗 [Inside the Brock Bee Lab Video](https://www.linkedin.com/posts/lyndon-b-duff_video-inside-brocks-bee-lab-activity-6914623848608858113-g6cI)
+[Watch the video →](https://www.linkedin.com/posts/lyndon-b-duff_video-inside-brocks-bee-lab-activity-6914623848608858113-g6cI)
+:::
 
-## Personal YouTube Channel
+<!--
+Add the YouTube channel once the link is ready:
+
+::: {.tile}
+[<i class="bi bi-youtube" aria-hidden="true"></i>]{.tile-icon}
+
+#### YouTube channel
 
 Videos highlighting the biology, behaviour, nesting ecology, and social behaviour of eastern carpenter bees.
 
-🔗 [YouTube Channel](YOUR_YOUTUBE_URL)
+[Visit the channel →](https://www.youtube.com/@YOUR_CHANNEL)
+:::
+-->
 
----
+:::
 
-# Conferences and Outreach
+## Conferences and outreach
 
-## BeeCon and BEEc
+::: {.card-grid}
+
+::: {.tile}
+[<i class="bi bi-people-fill" aria-hidden="true"></i>]{.tile-icon}
+
+#### BeeCon
 
 Research from the Brock Bee Lab has been presented at BeeCon, York University's annual conference devoted to bee ecology, evolution, and conservation.
 
-🔗 [BeeCon](https://www.yorku.ca/bees/beecon/)
+[BeeCon →](https://www.yorku.ca/bees/beecon/)
+:::
 
-🔗 [Centre for Bee Ecology, Evolution and Conservation (BEEc)](https://bees.yorku.ca/)
+::: {.tile}
+[<i class="bi bi-flower1" aria-hidden="true"></i>]{.tile-icon}
 
+#### BEEc
 
+Centre for Bee Ecology, Evolution and Conservation at York University.
+
+[Visit BEEc →](https://bees.yorku.ca/)
+:::
+
+:::

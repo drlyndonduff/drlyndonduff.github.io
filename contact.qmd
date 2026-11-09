@@ -1,38 +1,48 @@
 ---
 title: "Contact"
-author: "Dr. Lyndon B. Duff"
+subtitle: "Collaborations, talks, media, and outreach"
 ---
 
 I welcome inquiries regarding research collaborations, speaking engagements, media interviews, and outreach activities related to behavioural ecology, social evolution, and bee behaviour.
 
-## Professional Profiles
+::: {.link-row}
+[<i class="bi bi-building" aria-hidden="true"></i> University of Victoria profile](https://www.uvic.ca/science/biology/people/instructors/index.php){.btn-pill}
+[<i class="bi bi-person-badge-fill" aria-hidden="true"></i> ORCID](https://orcid.org/0000-0001-9939-5417){.btn-pill}
+[<i class="bi bi-mortarboard-fill" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en){.btn-pill}
+[<i class="bi bi-journal-text" aria-hidden="true"></i> ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn-pill}
+:::
 
-[University of Victoria Profile](https://www.uvic.ca/science/biology/people/instructors/index.php){.btn .btn-primary}
+::: {.card-grid}
 
-[ORCID](https://orcid.org/0000-0001-9939-5417){.btn .btn-success}
+::: {.tile}
+[<i class="bi bi-building" aria-hidden="true"></i>]{.tile-icon}
 
-[Google Scholar](https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en){.btn .btn-info}
-
-[ResearchGate](https://www.researchgate.net/profile/Lyndon-Duff){.btn .btn-secondary}
-
-
-## University of Victoria
+#### University of Victoria
 
 I currently serve as a Senior Laboratory Instructor in the Department of Biology at the University of Victoria. Contact information, office location, and institutional details are available through my official university profile.
 
-🔗 [Visit my University of Victoria Profile](https://www.uvic.ca/science/biology/people/instructors/index.php)
+[Visit my UVic profile →](https://www.uvic.ca/science/biology/people/instructors/index.php)
+:::
 
-## Research Interests
+::: {.tile}
+[<i class="bi bi-megaphone-fill" aria-hidden="true"></i>]{.tile-icon}
 
-- Behavioural ecology
-- Social evolution
-- Social networks
-- Bee biology
-- Pollinator ecology
-- Dispersal and philopatry
-- Nest fidelity
-- Reproductive behaviour
-
-## Media and Outreach
+#### Media and outreach
 
 For media requests, guest lectures, outreach events, or research collaborations, please contact me through my University of Victoria profile page.
+:::
+
+:::
+
+## Research interests
+
+::: {.chips}
+[Behavioural ecology]{.chip}
+[Social evolution]{.chip}
+[Social networks]{.chip}
+[Bee biology]{.chip}
+[Pollinator ecology]{.chip}
+[Dispersal and philopatry]{.chip}
+[Nest fidelity]{.chip}
+[Reproductive behaviour]{.chip}
+:::
