@@ -41,7 +41,7 @@ website:
         aria-label: ORCID
 
   page-footer:
-    left: "© 2026 Dr. Lyndon B. Duff · University of Victoria"
+    left: "© 2026 Dr. Lyndon B. Duff"
     right:
       - icon: mortarboard-fill
         href: https://scholar.google.com/citations?user=rIDnf2UAAAAJ&hl=en
