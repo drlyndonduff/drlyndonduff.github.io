@@ -4,7 +4,7 @@ subtitle: "Interactive lab activities for undergraduate biology"
 author: Dr. Lyndon B. Duff
 ---
 
-Interactive asynchronous labs built for the purpose of teaching online undergraduate courses. Each lab runs in a web browser compatible with a computer or tablet. R is used in the browser directly upon start-up of the page which takes a minute or two to load at first launch. Nothing additional need to be installed by users.
+Interactive asynchronous labs built for the purpose of teaching online undergraduate courses. Each lab runs in a web browser compatible with a computer or tablet. R is used in the browser directly upon start-up of the page which takes a minute or two to load at first launch. Nothing additional needs to be installed by users.
 
 ## Biol 215 - Ecology
 
@@ -15,7 +15,7 @@ Interactive asynchronous labs built for the purpose of teaching online undergrad
 
 #### Island Biogeography Lab
 
-Exmaining the species diversity of Islands with varying sizes. Do bigger Island hold more species? Budding ecologists map islands on the BC coast and in the Galápagos, measure their area and isolation on satellite imagery. Then, examine the species–area relationship with plant and bird data from the Hakai Institute's 100 Islands Project. For every result, students can see and edit the R code behind it. The first load takes up to two minutes while R starts in the browser.
+Examining the species diversity of islands with varying sizes. Do bigger islands hold more species? Budding ecologists map islands on the BC coast and in the Galápagos, measure their area and isolation on satellite imagery. Then, examine the species–area relationship with plant and bird data from the Hakai Institute's 100 Islands Project. For every result, students can see and edit the R code behind it. The first load takes up to two minutes while R starts in the browser.
 
 [Open the lab →](https://drlyndonduff.github.io/island-biogeography-lab/)
 :::
