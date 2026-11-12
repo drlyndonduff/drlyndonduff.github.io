@@ -12,7 +12,7 @@ website:
   page-navigation: false
 
   navbar:
-    # Collapse to the menu button below 1200 px so the seven links never
+    # Collapse to the menu button below 1200 px so the eight links never
     # crowd or wrap over each other on tablets and small laptops
     collapse-below: xl
     left:
@@ -28,6 +28,8 @@ website:
         text: CV
       - href: news_and_outreach.qmd
         text: News & Outreach
+      - href: teaching_labs.qmd
+        text: Teaching Labs
       - href: contact.qmd
         text: Contact
     right:
